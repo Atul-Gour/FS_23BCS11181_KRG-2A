@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio - Atul Gour</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Outfit', sans-serif; }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-[#1b1f2b] to-[#121418] text-white min-h-screen p-6">
+  <div class="max-w-3xl mx-auto flex flex-col gap-8">
+    
+    <!-- Header -->
+    <header class="bg-white/5 border border-white/20 rounded-2xl p-6 backdrop-blur-md shadow-xl text-center hover:scale-[1.015] transition-transform duration-300">
+      <img src="Photograph.png" alt="Atul Gour" class="w-32 h-32 object-cover rounded-full border-4 border-cyan-300 mx-auto mb-4 shadow-lg hover:scale-105 transition-transform duration-300" />
+      <h1 class="text-4xl font-bold text-cyan-300">Atul Gour</h1>
+      <p class="text-base mt-2">Hello, I am a Computer Science Engineering student at Chandigarh University, passionate about backend development and problem-solving.</p>
+    </header>
+
+    <!-- About Me -->
+    <section class="bg-white/5 border border-white/20 rounded-2xl p-6 backdrop-blur-md shadow-xl hover:scale-[1.015] transition-transform duration-300">
+      <h2 class="text-2xl font-semibold mb-4 text-cyan-300">About Me</h2>
+      <p>I am a 20-year-old B.E. Computer Science and Engineering student with a strong interest in backend development, data structures & algorithms (DSA), and full-stack development. I enjoy building projects that solve real-world problems and continuously explore new technologies.</p>
+    </section>
+
+    <!-- Links -->
+    <section class="bg-white/5 border border-white/20 rounded-2xl p-6 backdrop-blur-md shadow-xl hover:scale-[1.015] transition-transform duration-300">
+      <h2 class="text-2xl font-semibold mb-4 text-cyan-300">Links</h2>
+      <ul class="space-y-2">
+        <li><a href="https://github.com/Atul-Gour" target="_blank" class="text-cyan-300 hover:text-cyan-200 underline">GitHub</a></li>
+        <li><a href="http://linkedin.com/in/atulkumargour/" target="_blank" class="text-cyan-300 hover:text-cyan-200 underline">LinkedIn</a></li>
+      </ul>
+    </section>
+
+    <!-- Qualifications -->
+    <section class="bg-white/5 border border-white/20 rounded-2xl p-6 backdrop-blur-md shadow-xl hover:scale-[1.015] transition-transform duration-300">
+      <h2 class="text-2xl font-semibold mb-4 text-cyan-300">Qualifications</h2>
+      <table class="w-full text-sm border-collapse">
+        <thead>
+          <tr class="bg-white/10">
+            <th class="text-left p-3">Degree</th>
+            <th class="text-left p-3">Institution</th>
+            <th class="text-left p-3">Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-white/10">
+            <td class="p-3">B.E. Computer Science & Engineering</td>
+            <td class="p-3">Chandigarh University</td>
+            <td class="p-3">2023 - Present</td>
+          </tr>
+          <tr class="border-b border-white/10">
+            <td class="p-3">Intermediate (12th)</td>
+            <td class="p-3">K.S.K. Academy</td>
+            <td class="p-3">2023</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Projects -->
+    <section class="bg-white/5 border border-white/20 rounded-2xl p-6 backdrop-blur-md shadow-xl hover:scale-[1.015] transition-transform duration-300">
+      <h2 class="text-2xl font-semibold mb-4 text-cyan-300">Projects</h2>
+      <ul class="space-y-2">
+        <li>Health Monitoring Website – Simulated smartwatch integration with health suggestions</li>
+        <li>Farming Chatbot – Provides farming-related advice to smallholder farmers</li>
+        <li>Static Blog Website – Personal blog created with HTML/CSS/JS</li>
+        <li>Calculator Apps – Offline Java app & web-based calculator</li>
+      </ul>
+    </section>
+
+    <!-- Skills -->
+    <section class="bg-white/5 border border-white/20 rounded-2xl p-6 backdrop-blur-md shadow-xl hover:scale-[1.015] transition-transform duration-300">
+      <h2 class="text-2xl font-semibold mb-4 text-cyan-300">Skills</h2>
+      <ul class="flex flex-wrap gap-3">
+        <li class="bg-white/10 px-3 py-1 rounded-full text-sm hover:bg-white/20 transition">C++</li>
+        <li class="bg-white/10 px-3 py-1 rounded-full text-sm hover:bg-white/20 transition">Java</li>
+        <li class="bg-white/10 px-3 py-1 rounded-full text-sm hover:bg-white/20 transition">JavaScript</li>
+        <li class="bg-white/10 px-3 py-1 rounded-full text-sm hover:bg-white/20 transition">MERN Stack</li>
+        <li class="bg-white/10 px-3 py-1 rounded-full text-sm hover:bg-white/20 transition">Kotlin</li>
+        <li class="bg-white/10 px-3 py-1 rounded-full text-sm hover:bg-white/20 transition">DSA (Java)</li>
+        <li class="bg-white/10 px-3 py-1 rounded-full text-sm hover:bg-white/20 transition">Git & GitHub</li>
+        <li class="bg-white/10 px-3 py-1 rounded-full text-sm hover:bg-white/20 transition">Backend Development</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section class="bg-white/5 border border-white/20 rounded-2xl p-6 backdrop-blur-md shadow-xl hover:scale-[1.015] transition-transform duration-300">
+      <h2 class="text-2xl font-semibold mb-4 text-cyan-300">Contact Me</h2>
+      <form class="flex flex-col gap-4">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required class="p-2 bg-white/10 border border-white/20 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-300">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required class="p-2 bg-white/10 border border-white/20 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-300">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required class="p-2 bg-white/10 border border-white/20 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-300"></textarea>
+
+        <button type="submit" class="bg-cyan-300 text-gray-900 font-semibold py-2 rounded-lg hover:bg-cyan-200 transition">Submit</button>
+      </form>
+    </section>
+
+  </div>
+</body>
+</html>
